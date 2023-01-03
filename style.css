@@ -19,6 +19,7 @@ nav {
   background-color: #eee;
   display: flex;
   justify-content: space-around;
+  padding: 15px;
 }
 
 ul {
