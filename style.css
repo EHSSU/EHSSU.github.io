@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #449be3;
   color: white;
   padding: 20px;
   text-align: center;
@@ -16,12 +16,12 @@ h1 {
 }
 
 nav {
-  background-color: #eee;
+  background-color: #449be3;
   display: flex;
   justify-content: space-around;
   padding: 15px;
   overflow: hidden;
-  background-color: #333;
+  background-color: #449be3;
 }
 
 nav a {
@@ -62,7 +62,7 @@ section {
 }
 
 footer {
-  background-color: #333;
+  background-color: #449be3;
   color: white;
   padding: 20px;
   text-align: center;
@@ -71,7 +71,7 @@ footer {
 /* Style the navbar */
 #navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #449be3;
 }
 
 /* Navbar links */
