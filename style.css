@@ -101,7 +101,9 @@ footer {
   color: white;
   padding: 20px;
   text-align: center;
+  position: -webkit-sticky;
   position: sticky;
+  top: 0;
 }
 
 /* Style the navbar */
@@ -127,6 +129,7 @@ footer {
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 nav {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   width: 100%;
