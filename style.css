@@ -103,7 +103,7 @@ footer {
   text-align: center;
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  bottom: 0;
 }
 
 /* Style the navbar */
