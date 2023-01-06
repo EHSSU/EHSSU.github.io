@@ -12,6 +12,7 @@ header {
   background-color: #004aad;
   color: white;
   padding: 20px;
+  padding-bottom: 0px;
   text-align: center;
   overflow: hidden;
 }
