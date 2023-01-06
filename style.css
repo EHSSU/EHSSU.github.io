@@ -37,6 +37,11 @@ nav {
   overflow: hidden;
 }
 
+#navbar {
+  width: 100%;
+  text-align: center;
+}
+
 nav a {
   float: left;
   display: block;
