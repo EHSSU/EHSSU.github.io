@@ -9,7 +9,7 @@ li {
 }
 
 header {
-  background-color: #449be3;
+  background-color: #004aad;
   color: white;
   padding: 20px;
   text-align: center;
@@ -17,8 +17,8 @@ header {
 }
 
 header img {
-  height: 100px;
-  width: 100px;
+  height: 6%;
+  width: 100%;
   display: inline;
   float: left;
 }
