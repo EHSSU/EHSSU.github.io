@@ -67,7 +67,7 @@ li {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+  box-shadow: 5px 5px 2px black;
 }
 
 nav a:hover {
