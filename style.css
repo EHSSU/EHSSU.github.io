@@ -32,6 +32,7 @@ nav {
 
 #search {
   float: right;
+  display: inline;
 }
 
 body {
