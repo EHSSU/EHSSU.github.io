@@ -33,6 +33,9 @@ nav {
 #search {
   float: right;
   display: inline;
+  border: none;
+  text-size: 45px;
+  padding: 5px;
 }
 
 body {
