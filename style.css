@@ -36,6 +36,10 @@ body {
   padding: 0;
 }
 
+p {
+  font-size: 20px;
+}
+
 h1 {
   display: inline;
   padding: 10px;
