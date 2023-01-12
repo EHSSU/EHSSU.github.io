@@ -28,6 +28,7 @@ nav {
   position: sticky;
   top: 0;
   font-size: 45px;
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
 }
 
 body {
@@ -63,6 +64,7 @@ li {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
 }
 
 nav a:hover {
