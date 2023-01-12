@@ -24,9 +24,10 @@ nav {
   justify-content: space-around;
   padding: 0px;
   overflow: hidden;
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  font-size: 45px;
 }
 
 body {
