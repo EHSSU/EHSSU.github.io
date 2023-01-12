@@ -48,6 +48,7 @@ h1 {
 
 li {
   list-style-type: disc;
+  font-size: 20px;
 }
 
 #navlinks {
