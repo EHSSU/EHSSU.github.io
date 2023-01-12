@@ -69,11 +69,12 @@ section {
   background-color:#004aad; 
   padding: 15px;
   color: white;
-}
-
-section {
   margin-bottom: 20px;
 }
+
+section img {
+  margin: 0;
+  padding: 0;
 
 footer {
   background-color: #1560BD;
