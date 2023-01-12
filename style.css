@@ -7,7 +7,7 @@ header {
   overflow: hidden;
 }
 
-header img {
+#headerbar {
   height: 4%;
   width: 100%;
   display: inline;
