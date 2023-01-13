@@ -106,7 +106,8 @@ footer {
   color: white;
   padding: 20px;
   text-align: center;
-  height: 100px;
+  height: 300px;
+  bottom: 0;
 }
 
 footer a {
