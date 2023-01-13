@@ -116,4 +116,5 @@ footer a {
   padding: 10px;
 }
 
-
+footer ul {
+list-style-type: none;
