@@ -114,6 +114,8 @@ footer a {
   float: left;
   color: grey;
   padding: 10px;
+  position: absolute;
+  bottom: 0;
 }
 
 footer ul {
