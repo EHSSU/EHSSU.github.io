@@ -112,7 +112,8 @@ footer {
 
 footer a {
   float: left;
-  color: grey
+  color: grey;
+  padding: 10px;
 }
 
 
