@@ -120,6 +120,10 @@ footer ul {
 list-style-type: none;
 }
 
+footer li {
+list-style-type: none;
+}
+
 /* Style all social icons */
 .fa {
   padding: 20px;
