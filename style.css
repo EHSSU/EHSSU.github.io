@@ -19,7 +19,7 @@ img {
   width: 100%;
 }
 
-nav {
+/*nav {
   background-color: #004aad;
   justify-content: space-around;
   padding: 0px;
@@ -28,7 +28,7 @@ nav {
   position: sticky;
   top: 0;
   font-size: 45px;
-}
+}*/
 
 #search {
   float: right;
