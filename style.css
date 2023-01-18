@@ -65,7 +65,7 @@ li {
   font-size: 20px;
 }
 
-#navlinks {
+.navlinks {
   float: left;
   display: block;
   color: #f2f2f2;
