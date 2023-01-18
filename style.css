@@ -79,7 +79,7 @@ li {
   top: 0;
 }
 
-nav table td a:hover {
+.navlinks:hover {
     background-color: #004aad;
     color: blue;
     transition: 0.3s;
