@@ -19,7 +19,7 @@ img {
   width: 100%;
 }
 
-/*nav {
+nav {
   background-color: #004aad;
   justify-content: space-around;
   padding: 0px;
@@ -28,7 +28,7 @@ img {
   position: sticky;
   top: 0;
   font-size: 45px;
-}*/
+}
 
 #search {
   float: right;
@@ -65,8 +65,8 @@ li {
   font-size: 20px;
 }
 
-.navbarLinks {
-  float: right;
+nav a {
+  float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
