@@ -63,33 +63,32 @@ nav {
     background-color: #fff;
 }
 
+.mobile {
+  display:none;
+}
+
 nav img {
     width: 150px;
-    margin-left: 40wh;
 }
 
 .nav-links {
     flex: 1;
     text-align: center;
-  
+    overflow: hidden;
 }
 
-.nav-links ul li {
-    list-style: none;
-    display: inline-block;
+.nav-links a {
     margin: -2px;
     padding: 8px 12px;
     position: relative;
-}
-
-.nav-links ul li a {
     color: black;
     text-decoration: none;
     font-size: 20px;
     font-weight: 100;
+    display: inline-block;
 }
 
-.nav-links ul li::after {
+.nav-links a::after {
     content: '';
     width: 0%;
     height: 2px;
@@ -99,8 +98,20 @@ nav img {
     transition: 0.5s;
 }
 
-.nav-links ul li:hover::after {
+.nav-links a:hover::after {
     width: 100%;
+}
+
+.icon {
+  float:right;
+}
+
+.dropdown {
+  display:none;
+}
+
+.hidden {
+  display:none;
 }
 
 .nav-btn {
@@ -115,7 +126,6 @@ nav img {
     position: relative;
     cursor: pointer;
     border-radius: 4px;
-    margin-right: 40wh;
 }
 
 .nav-btn:hover {
@@ -123,6 +133,24 @@ nav img {
     padding: 10px, 12px;
     color: blue;
     background: transparent;
+    transition: 1s;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 1px solid blue;
+    background: blue;
     transition: 1s;
 }
 
@@ -170,29 +198,11 @@ main {
     color: #fff;
 }
 
-.hero-btn {
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-}
-
-.hero-btn:hover {
-    border: 1px solid blue;
-    background: blue;
-    transition: 1s;
-}
-
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 852px) {
   main {
     max-height: 650px;
     width: 100%;
-    background-imae: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.jpeg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.jpeg);
     background-position: center;
     background-size: cover;
     flex: 0 1 auto;
@@ -202,4 +212,34 @@ main {
     font-size: 32px;
     margin: 25px;
   }
+
+  nav {
+    padding: 1px 2%;
+  }
+
+  nav img{
+    width: 75px;
+  }
+
+  .nav-btn {
+    padding: 12px;
+  }
+  
+}
+
+@media only screen and (max-width: 800px) {
+  
+  .social-media {
+    text-align: center;
+  }
+  
+}
+
+@media only screen and (max-width:650px) {
+    .desktop {display: none;}
+    .mobile {display: flex;}
+    .dropdown {
+      display: flex;
+      flex-flow: column;
+    }
 }
