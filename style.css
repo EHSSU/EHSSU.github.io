@@ -58,13 +58,14 @@ nav {
     padding: 2% 6%;
     padding-top: 1px;
     padding-bottom: 1px;
-    justify-content: space-around;
     align-items: center;
     background-color: #fff;
+    justify-content: center;
 }
 
 .mobile {
   display:none;
+  justify-content: space-between;
 }
 
 nav img {
@@ -102,12 +103,10 @@ nav img {
     width: 100%;
 }
 
-.icon {
-  float:right;
-}
-
 .dropdown {
   display:none;
+  flex: 0 1 auto;
+  justify-content: center
 }
 
 .hidden {
