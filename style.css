@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cardo', serif;
 }
 
 html, body {
@@ -20,7 +20,7 @@ header {
 
 .announcement-bar {
     display: flex;
-    background-color: blue;
+    background-color: #024f9f;
     justify-content: space-around;
     align-items: center;
 }
@@ -40,7 +40,7 @@ header {
 
 .social-media ul li a {
     margin: 0;
-    color: white;
+    color: #b0baed;
     text-decoration: none;
     font-weight: 400;
     line-height: 12px;
@@ -49,8 +49,8 @@ header {
 }
 
 .social-media ul li a:hover {
-    color: blue;
-    background: white;
+    color: #024f9f;
+    background: #b0baed;
 }
 
 nav {
@@ -93,7 +93,7 @@ nav img {
     content: '';
     width: 0%;
     height: 2px;
-    background: blue;
+    background: #b0baed;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -116,22 +116,22 @@ nav img {
 .nav-btn {
     display: inline-block;
     text-decoration: none;
-    color: white;
+    color: #b0baed;
     font-weight: 700;
     border: 1px solid blue;
     padding: 12px 34px;
     font-size: 13px;
-    background: blue;
+    background: #024f9f;
     position: relative;
     cursor: pointer;
     border-radius: 4px;
 }
 
 .nav-btn:hover {
-    border: 1px solid blue;
+    border: 1px solid #024f9f;
     padding: 10px, 12px;
-    color: blue;
-    background: transparent;
+    color: #024f9f;
+    background: #b0baed;
     transition: 1s;
 }
 
@@ -148,8 +148,8 @@ nav img {
 }
 
 .hero-btn:hover {
-    border: 1px solid blue;
-    background: blue;
+    border: 1px solid #024f9f;
+    background: #024f9f;
     transition: 1s;
 }
 
