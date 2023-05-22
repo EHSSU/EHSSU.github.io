@@ -197,14 +197,9 @@ main {
     color: #fff;
 }
 
-@media only screen and (max-width: 852px) {
+@media only screen and (max-width: 800px) {
   main {
     max-height: 650px;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.jpeg);
-    background-position: center;
-    background-size: cover;
-    flex: 0 1 auto;
   }
   
   .text-box h1 {
@@ -223,11 +218,7 @@ main {
   .nav-btn {
     padding: 12px;
   }
-  
-}
 
-@media only screen and (max-width: 800px) {
-  
   .social-media {
     text-align: center;
   }
