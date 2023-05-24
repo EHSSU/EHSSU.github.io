@@ -1,3 +1,8 @@
+:root {
+    --primary-color: blue;
+    --secondary-color: white;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +25,7 @@ header {
 
 .announcement-bar {
     display: flex;
-    background-color: blue;
+    background-color: var(--primary-color);
     justify-content: space-around;
     align-items: center;
 }
@@ -40,7 +45,7 @@ header {
 
 .social-media ul li a {
     margin: 0;
-    color: white;
+    color: var(--secondary-color);
     text-decoration: none;
     font-weight: 400;
     line-height: 12px;
@@ -49,8 +54,8 @@ header {
 }
 
 .social-media ul li a:hover {
-    color: blue;
-    background: white;
+    color: var(--primary-color);
+    background: var(--secondary-color);
 }
 
 nav {
@@ -93,7 +98,7 @@ nav img {
     content: '';
     width: 0%;
     height: 2px;
-    background: blue;
+    background: var(--primary-color);
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -116,21 +121,21 @@ nav img {
 .nav-btn {
     display: inline-block;
     text-decoration: none;
-    color: white;
+    color: var(--secondary-color);
     font-weight: 700;
-    border: 1px solid blue;
+    border: 1px solid var(--primary-color);
     padding: 12px 34px;
     font-size: 13px;
-    background: blue;
+    background: var(--primary-color);
     position: relative;
     cursor: pointer;
     border-radius: 4px;
 }
 
 .nav-btn:hover {
-    border: 1px solid blue;
+    border: 1px solid var(--primary-color);
     padding: 10px, 12px;
-    color: blue;
+    color: var(--primary-color);
     background: transparent;
     transition: 1s;
 }
@@ -138,8 +143,8 @@ nav img {
 .hero-btn {
     display: inline-block;
     text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
+    color: white;
+    border: 1px solid white;
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
@@ -148,8 +153,8 @@ nav img {
 }
 
 .hero-btn:hover {
-    border: 1px solid blue;
-    background: blue;
+    border: 1px solid var(--primary-color);
+    background: var(--primary-color);
     transition: 1s;
 }
 
@@ -183,7 +188,7 @@ main {
     display: flex;
     justify-content: center;
     width: 90%;
-    color: blue;
+    color: var(--primary-color);
     text-align: center;
 }
 
