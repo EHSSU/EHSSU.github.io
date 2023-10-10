@@ -125,6 +125,7 @@ nav img {
     font-weight: 700;
     border: 1px solid var(--primary-color);
     padding: 12px 34px;
+    margin: 5px 5px;
     font-size: 13px;
     background: var(--primary-color);
     position: relative;
