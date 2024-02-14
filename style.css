@@ -121,6 +121,7 @@ nav img {
 .nav-side {
     flex: 1;
     text-align: center;
+}
 
 .nav-btn {
     display: inline-block;
