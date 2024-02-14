@@ -78,7 +78,7 @@ nav img {
 }
 
 .nav-links {
-    flex: 1;
+    flex: auto;
     text-align: center;
     overflow: hidden;
 }
@@ -111,12 +111,16 @@ nav img {
 .dropdown {
   display:none;
   flex: 0 1 auto;
-  justify-content: center
+  justify-content: center;
 }
 
 .hidden {
   display:none;
 }
+
+.nav-side {
+    flex: 1;
+    text-align: center;
 
 .nav-btn {
     display: inline-block;
