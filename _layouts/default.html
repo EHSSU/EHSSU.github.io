@@ -47,25 +47,28 @@
     </section>
 
     <nav>
+      <div class="nav-side">
         <a href="index.html"><img src="images/logos.jpeg" alt="EHSSU Logo"></a>
-        <div class="nav-links desktop" id="nav-links">
-          <a href="index.html">Home</a>
-          <a href="about.html">About Us</a>
-          <a href="news.html">News</a>
-          <a href="contact.html">Contact Us</a>
-        </div>
-        <div class="nav-links mobile" id="nav-links-mobile">
-          <a href="javascript:void(0);" style="visibility: hidden;">
-            <i class="fa fa-bars"></i>
-          </a>
-          <a href="{{ page.url | absolute_url }}">{{ page.title }}</a>
-          <a href="javascript:void(0);" class="icon" onclick="nav()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </div>
+      </div>
+      <div class="nav-links desktop" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="news.html">News</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <div class="nav-links mobile" id="nav-links-mobile">
+        <a href="javascript:void(0);" style="visibility: hidden;">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="{{ page.url | absolute_url }}">{{ page.title }}</a>
+        <a href="javascript:void(0);" class="icon" onclick="nav()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <div class="nav-side">
         <a href="http://join.ehssu.com" class="nav-btn" role="button">Join Now</a>
-        <br>
         <a href="http://donate.ehssu.com" class="nav-btn" role="button">Donate!</a>
+      </div>
     </nav>
 
     <nav class='hidden' id='nav-dropdown'>
